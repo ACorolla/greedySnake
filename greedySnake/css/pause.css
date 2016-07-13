@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.pause-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+}
+.pause-mask{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.pause-box{
+    width: 400px;
+    height: 300px;
+    background: #c8ef81;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -150px;
+}
+.pause-title-box{
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #ccc;
+}
+.pause-title{
+    float: left;
+}
+.pause-close-btn{
+    float: right;
+    cursor: pointer;
+}
